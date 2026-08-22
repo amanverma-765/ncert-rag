@@ -11,7 +11,8 @@ build/
 *.egg-info/
 
 # IDE
-.idea/
+.idea/*
+!.idea/runConfigurations/
 .omc
 .claude
 
