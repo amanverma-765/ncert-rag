@@ -1,4 +1,4 @@
-from uv_template import main
+from ncert_rag import main
 
 
 def test_main_prints(capsys):
