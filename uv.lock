@@ -837,10 +837,26 @@ wheels = [
 ]
 
 [[package]]
+name = "ncert-cli"
+version = "1.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "platformdirs" },
+    { name = "pypdf" },
+    { name = "requests" },
+    { name = "rich" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e8/75/350230255c6805df094935a742e398443b43fa4312e6cf5ece8b002fef3c/ncert_cli-1.0.1.tar.gz", hash = "sha256:25b6794f6ae7382afbf4b8d79534c43de29f2e62e34b0ce03fe6d04403b2cf2c", size = 118246, upload-time = "2026-08-23T16:38:38.794Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/40/f045e7ffb5240b47f03d3f2fa9529e94537251b7206e23a2a4db7ba39311/ncert_cli-1.0.1-py3-none-any.whl", hash = "sha256:9ccd179956bb6f75de806dee67760aded0500305fae4b1fd0b644de2ec77ca35", size = 28194, upload-time = "2026-08-23T16:38:40.365Z" },
+]
+
+[[package]]
 name = "ncert-rag"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [
+    { name = "ncert-cli" },
     { name = "pydantic-ai" },
     { name = "pymupdf" },
     { name = "tiktoken" },
@@ -854,6 +870,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "ncert-cli", specifier = ">=1.0.1" },
     { name = "pydantic-ai", specifier = ">=2.33.0" },
     { name = "pymupdf", specifier = ">=1.28.2" },
     { name = "tiktoken", specifier = ">=0.14.0" },
@@ -1322,6 +1339,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/e2/93/08f404a1f0155fe24137cf2d3aabd3e2b4b08c62053ed89c60f2611be3e9/pymupdf-1.28.2-cp310-abi3-win_arm64.whl", hash = "sha256:ffe91a24edc75c80da2a4b62f50fc0f54632d34fc8fe4cbc48e5c7ff07cf8fb4", size = 19759252, upload-time = "2026-08-06T21:39:12.937Z" },
     { url = "https://files.pythonhosted.org/packages/58/8c/d897dcd32a25b58186c968b15ce4324ca029e9d96460de12325314e390be/pymupdf-1.28.2-cp313-abi3-pyemscripten_2025_0_wasm32.whl", hash = "sha256:2e1b574c0fd2cb238021033fd3c0f9c4388816638df064e4bfb56d9d81736dc8", size = 18399403, upload-time = "2026-08-06T21:39:25.008Z" },
     { url = "https://files.pythonhosted.org/packages/f6/f1/de34a1c53fe2bf8c6e71db84b0ced782d408970c9810d2b456a2ae96814c/pymupdf-1.28.2-cp314-cp314t-manylinux_2_28_x86_64.whl", hash = "sha256:fd481ed48bef56305c41fb7e05a055c03345c899c7b101dad086258b438f8168", size = 25802333, upload-time = "2026-08-06T21:39:41.426Z" },
+]
+
+[[package]]
+name = "pypdf"
+version = "6.16.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/44/66/54212e75406afd9f3e933d0dda23072f6aecc55c5a273077dc2e0b028b23/pypdf-6.16.2.tar.gz", hash = "sha256:595647f6191de6f402cfde1d0c455d6cbccbd509aac32b34783009c032de5d6e", size = 7008996, upload-time = "2026-08-23T13:50:07.135Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/f1/a2da3b55acd4ab737bf728c97edaaed5ec1d3c1236acb639dcdfa97e42c7/pypdf-6.16.2-py3-none-any.whl", hash = "sha256:c8b09a59399062fb45a1b8156c18a787a10a3dae03ac9674397a226712c94604", size = 385060, upload-time = "2026-08-23T13:50:05.349Z" },
 ]
 
 [[package]]
