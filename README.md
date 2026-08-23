@@ -16,9 +16,17 @@ interpreter if you don't already have one.
 | `uv run ruff format .` | format |
 | `uvx pre-commit install` | lint and format on every commit, once per clone |
 
+### Companion tool
+
+The textbooks are fetched by [ncert-cli](https://github.com/amanverma-765/ncert-cli)
+(`pip install ncert-cli`), a downloader built for this pipeline. `uv sync` installs it;
+`main()` fetches Class X Mathematics and Science into `data/` on first run.
+
 ### Layout
 
 - `src/ncert_rag/main.py` — `main()`, what the console script calls
+- `src/ncert_rag/download.py` — fetches the textbooks via ncert-cli
+- `src/ncert_rag/parser.py` — samples pages and counts tokens
 - `tests/test_main.py` — its test
 - `pyproject.toml` — dependencies, entry point, ruff and pytest config
 
