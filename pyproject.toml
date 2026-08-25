@@ -5,9 +5,12 @@ readme = "README.md"
 description = "A complete RAG pipeline for NCERT books"
 requires-python = ">=3.14"
 dependencies = [
-    "ncert-cli>=1.0.1",
+    "ncert-cli>=1.0.3",
+    "numpy>=2",
     "pydantic-ai>=2.33.0",
     "pymupdf>=1.28.2",
+    "python-dotenv>=1.2",
+    "sentence-transformers>=3",
     "tiktoken>=0.14.0",
 ]
 
@@ -15,15 +18,20 @@ dependencies = [
 dev = ["pytest>=7.0", "ruff>=0.14"]
 
 [project.scripts]
-ncert-rag = "ncert_rag.main:main"
+ncert-rag = "ncert_rag.cli:main"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]
 
+[tool.ruff.lint.per-file-ignores]
+# one book per line stays scannable as a table; wrapping them does not
+"src/ncert_rag/core/registry.py" = ["E501"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-# lets `python3 -m pytest` work in a bare checkout, without a synced venv
-pythonpath = ["src"]
+# lets `python3 -m pytest` work in a bare checkout, without a synced venv.
+# "." puts evals/ on the path too; it is a harness, not part of the package.
+pythonpath = ["src", "."]
 addopts = "-q"
 
 [build-system]

@@ -16,6 +16,9 @@ build/
 .omc
 .claude
 
+# secrets
+.env
+
 # OS
 .DS_Store
 
