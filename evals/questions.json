@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "q0000",
+    "question": "Do these pairs of equations have solutions or not, and if they do, where do the lines cross on a graph?",
+    "book": "class_10_mathematics",
+    "chapter": 3,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0001",
+    "question": "If two number sequences grow at the same rate, and their 100th values differ by 100, what would the difference between their 1000th values be?",
+    "book": "class_10_mathematics",
+    "chapter": 5,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0002",
+    "question": "If you add 132 to the 54th number in the pattern 3, 15, 27, 39\u2026, which term in that same pattern gives you that result?",
+    "book": "class_10_mathematics",
+    "chapter": 5,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0003",
+    "question": "Which triangles in the figure are similar to each other, what rule proves they match, and how do you write each matching pair using proper triangle notation?",
+    "book": "class_10_mathematics",
+    "chapter": 6,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0004",
+    "question": "How do you express all the other trig ratios like sin, cos, tan, cosec, and cot using only sec A?",
+    "book": "class_10_mathematics",
+    "chapter": 8,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0005",
+    "question": "How many tangent lines is it possible to draw to a circle?",
+    "book": "class_10_mathematics",
+    "chapter": 10,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0006",
+    "question": "What is the average number of plants per house, and which method works best to find it here?",
+    "book": "class_10_mathematics",
+    "chapter": 13,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0007",
+    "question": "What is the chance of something NOT happening if the chance of it happening is 0.05?",
+    "book": "class_10_mathematics",
+    "chapter": 14,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0008",
+    "question": "What are the chances of picking an orange candy or a lemon candy from a bag that has only lemon candies in it?",
+    "book": "class_10_mathematics",
+    "chapter": 14,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0009",
+    "question": "What happens when you mix two liquid solutions together and a solid suddenly forms at the bottom?",
+    "book": "class_10_science",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0010",
+    "question": "Why do some chemical reactions release heat while others absorb heat, and can you give examples of each?",
+    "book": "class_10_science",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0011",
+    "question": "What happens when dilute acids like sulphuric acid or hydrochloric acid react with metals like zinc, magnesium, aluminium, and iron?",
+    "book": "class_10_science",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0012",
+    "question": "What kind of medicine do you take when you have an upset stomach or indigestion?",
+    "book": "class_10_science",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0013",
+    "question": "What are two simple ways you can stop iron from going rusty?",
+    "book": "class_10_science",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0014",
+    "question": "Which metals can push hydrogen out of weak acids, and which metals cannot do this?",
+    "book": "class_10_science",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0015",
+    "question": "How can you tell apart drinking alcohol and vinegar acid by looking at how they look, smell, and react with other substances?",
+    "book": "class_10_science",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0016",
+    "question": "What happens when you add hydrogen to a substance and how is that process used in everyday industries?",
+    "book": "class_10_science",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0017",
+    "question": "Why are the tiny air sacs in your lungs shaped and structured the way they are to help oxygen and carbon dioxide move in and out as efficiently as possible?",
+    "book": "class_10_science",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0018",
+    "question": "What does a plant need to make its own food, and what does it produce as a result?",
+    "book": "class_10_science",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0019",
+    "question": "What happens in our body when the parts that detect signals stop working the way they should?",
+    "book": "class_10_science",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0020",
+    "question": "How are the ways your brain sends quick signals different from how your body uses chemicals to send slower messages to control things?",
+    "book": "class_10_science",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0021",
+    "question": "Which body part does NOT belong to the female reproductive system?",
+    "book": "class_10_science",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0022",
+    "question": "Why do single-celled creatures reproduce differently from creatures made of many cells?",
+    "book": "class_10_science",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0023",
+    "question": "Why do offspring get the same amount of genetic material from their mother as from their father?",
+    "book": "class_10_science",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0024",
+    "question": "What steps would you take to figure out which fur color is most common in dogs?",
+    "book": "class_10_science",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0025",
+    "question": "What is the focal length of a lens with power -2.0 D, and what kind of lens is it?",
+    "book": "class_10_science",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0026",
+    "question": "Which type of lens and focal length works best for reading tiny letters in a dictionary?",
+    "book": "class_10_science",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0027",
+    "question": "What kind of lens does a nearsighted person need if they can only see clearly up to 80 cm, and how strong should it be?",
+    "book": "class_10_science",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0028",
+    "question": "When you move an object farther from your eye, does the image inside your eye get closer to or farther from the lens?",
+    "book": "class_10_science",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0029",
+    "question": "If each small bulb uses a tiny bit of current, how many of them can you plug in together before the total current hits the 5 A limit on a 220 V line?",
+    "book": "class_10_science",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0030",
+    "question": "If you connect several identical resistors side by side to a 220V power source and need 5A of total current, how many resistors do you need?",
+    "book": "class_10_science",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0031",
+    "question": "What shape do the magnetic field lines make around a long straight wire?",
+    "book": "class_10_science",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0032",
+    "question": "When does an electric short circuit happen in a circuit?",
+    "book": "class_10_science",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0033",
+    "question": "Which group contains only items that can be broken down naturally by the environment?",
+    "book": "class_10_science",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0034",
+    "question": "Which of these everyday habits are actually good for the environment?",
+    "book": "class_10_science",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0035",
+    "question": "What are the plain meanings of the grouping levels used to sort living things into categories like phylum, class, family, order, and genus?",
+    "book": "class_11_biology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0036",
+    "question": "What can we find out about people and groups by telling them apart from one another?",
+    "book": "class_11_biology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0037",
+    "question": "What are the four main types of protozoa and what makes each one different from the others?",
+    "book": "class_11_biology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0038",
+    "question": "How do the different groups of fungi compare with each other in the ways they get their food and the ways they reproduce?",
+    "book": "class_11_biology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0039",
+    "question": "In which part of the plant body and at what stage of the life cycle does meiosis happen in liverworts, mosses, ferns, gymnosperms and angiosperms?",
+    "book": "class_11_biology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0040",
+    "question": "Why are gymnosperms and angiosperms put in different groups even though both of them produce seeds?",
+    "book": "class_11_biology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0041",
+    "question": "What is the difference between animals that hatch looking like tiny adults versus animals that go through a larva stage before becoming adults?",
+    "book": "class_11_biology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0042",
+    "question": "What special body features help flatworms live as parasites inside other animals?",
+    "book": "class_11_biology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0043",
+    "question": "What are the different ways seeds are arranged inside a flower's ovary?",
+    "book": "class_11_biology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0044",
+    "question": "What are aestivation, placentation, actinomorphic, zygomorphic, superior ovary, perigynous flower, and epipetalous stamen in simple words?",
+    "book": "class_11_biology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0045",
+    "question": "Why is it helpful to learn about the inner structure of plants?",
+    "book": "class_11_biology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0046",
+    "question": "What are the three main tissue systems in flowering plants and what specific tissues belong to each one?",
+    "book": "class_11_biology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0047",
+    "question": "How do uncharged particles cross the cell membrane, and can charged or water-loving molecules cross the same way, or do they need a different method?",
+    "book": "class_11_biology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0048",
+    "question": "Who actually discovered the cell, and is it true that Robert Brown was the one who discovered it?",
+    "book": "class_11_biology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0049",
+    "question": "What are the main things that make enzymes special and different from other substances in the body?",
+    "book": "class_11_biology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0050",
+    "question": "What ingredients make up gums, and is Fevicol made from something different than regular gums?",
+    "book": "class_11_biology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0051",
+    "question": "Why is meiosis important for living things that reproduce sexually?",
+    "book": "class_11_biology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0052",
+    "question": "How long does it typically take for a mammalian cell to complete one full cycle of growth and division?",
+    "book": "class_11_biology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0053",
+    "question": "Why can C4 plants produce so much food even though only a small number of their cells actually do the main sugar-making work?",
+    "book": "class_11_biology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0054",
+    "question": "If a plant only had chlorophyll b and no chlorophyll a, could it still do photosynthesis, and why do plants bother having chlorophyll b at all?",
+    "book": "class_11_biology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0055",
+    "question": "What kinds of substances does the body break down to get energy for breathing, and which one is used most often?",
+    "book": "class_11_biology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0056",
+    "question": "What is the difference between breathing with oxygen and without oxygen, breaking down sugar with and without fermentation, and the first stage of energy release compared to the second stage?",
+    "book": "class_11_biology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0057",
+    "question": "What do the words growth, differentiation, development, dedifferentiation, redifferentiation, determinate growth, meristem, and growth rate actually mean in simple terms?",
+    "book": "class_11_biology",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0058",
+    "question": "Can a plant without leaves still sense day length and flower, and if so, what does that tell us about where the plant detects light changes?",
+    "book": "class_11_biology",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0059",
+    "question": "Does atmospheric air have more oxygen and less carbon dioxide compared to the air inside your lungs?",
+    "book": "class_11_biology",
+    "chapter": 14,
+    "tier": "clean"
+  },
+  {
+    "id": "q0060",
+    "question": "How does the amount of carbon dioxide in the blood affect how much oxygen gets carried around the body?",
+    "book": "class_11_biology",
+    "chapter": 14,
+    "tier": "clean"
+  },
+  {
+    "id": "q0061",
+    "question": "How did the heart change and become more complex as animals evolved from fish to mammals?",
+    "book": "class_11_biology",
+    "chapter": 15,
+    "tier": "clean"
+  },
+  {
+    "id": "q0062",
+    "question": "Why is it important that there is a slight delay before the signal passes from the upper chambers of the heart to the lower chambers?",
+    "book": "class_11_biology",
+    "chapter": 15,
+    "tier": "clean"
+  },
+  {
+    "id": "q0063",
+    "question": "How do animals control the amount of water and salts in their bodies?",
+    "book": "class_11_biology",
+    "chapter": 16,
+    "tier": "clean"
+  },
+  {
+    "id": "q0064",
+    "question": "Why don't land animals get rid of waste nitrogen as ammonia the way water animals do?",
+    "book": "class_11_biology",
+    "chapter": 16,
+    "tier": "clean"
+  },
+  {
+    "id": "q0065",
+    "question": "What are the differences you can see between the two types of muscle that make the heart beat versus the ones that move your arms and legs?",
+    "book": "class_11_biology",
+    "chapter": 17,
+    "tier": "clean"
+  },
+  {
+    "id": "q0066",
+    "question": "What are the main differences between actin and myosin, red and white muscles, and pectoral and pelvic girdles?",
+    "book": "class_11_biology",
+    "chapter": 17,
+    "tier": "clean"
+  },
+  {
+    "id": "q0067",
+    "question": "What is the difference between nerves that carry signals toward the brain and those that carry signals away from it?",
+    "book": "class_11_biology",
+    "chapter": 18,
+    "tier": "clean"
+  },
+  {
+    "id": "q0068",
+    "question": "Why is sodium so important for making a nerve signal fire?",
+    "book": "class_11_biology",
+    "chapter": 18,
+    "tier": "clean"
+  },
+  {
+    "id": "q0069",
+    "question": "What hormones does each gland in the body produce?",
+    "book": "class_11_biology",
+    "chapter": 19,
+    "tier": "clean"
+  },
+  {
+    "id": "q0070",
+    "question": "Which hormone is missing in the body when someone has diabetes, goitre, or cretinism?",
+    "book": "class_11_biology",
+    "chapter": 19,
+    "tier": "clean"
+  },
+  {
+    "id": "q0071",
+    "question": "How did early humans use living things like yeast or bacteria to make food and improve their lives long before modern science existed?",
+    "book": "class_11_biotechnology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0072",
+    "question": "What is biotechnology and can you give some everyday examples of how it is used?",
+    "book": "class_11_biotechnology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0073",
+    "question": "What are the different kinds of vacuoles found in cells?",
+    "book": "class_11_biotechnology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0074",
+    "question": "Why do prokaryotic cells need a cell wall to survive?",
+    "book": "class_11_biotechnology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0075",
+    "question": "Which type of fat does your body store as an energy reserve?",
+    "book": "class_11_biotechnology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0076",
+    "question": "Which common table sugar cannot reduce other chemicals because it has no free aldehyde or ketone group?",
+    "book": "class_11_biotechnology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0077",
+    "question": "How does the disorder or randomness in a system connect to whether a reaction will release usable energy?",
+    "book": "class_11_biotechnology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0078",
+    "question": "Why does the stomach enzyme stop working once it moves into the next part of the digestive system?",
+    "book": "class_11_biotechnology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0079",
+    "question": "What is the difference between the two ways plants make energy from sunlight, one that goes in a loop and one that doesn't?",
+    "book": "class_11_biotechnology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0080",
+    "question": "What is the difference between totipotent and pluripotent cells?",
+    "book": "class_11_biotechnology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0081",
+    "question": "If you cross a purebred tall red tomato plant with a tall red plant that carries hidden short and white genes, what mix of looks and gene types will the offspring show?",
+    "book": "class_11_biotechnology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0082",
+    "question": "Is it possible for linked genes to sometimes get separated during reproduction, or do they always stay together?",
+    "book": "class_11_biotechnology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0083",
+    "question": "Why does one strand of DNA copy itself smoothly in one go while the other strand has to be built in small separate pieces during replication?",
+    "book": "class_11_biotechnology",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0084",
+    "question": "If a cell lost all its proteins, would DNA replication still be able to happen?",
+    "book": "class_11_biotechnology",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0085",
+    "question": "What causes Down syndrome, what signs does it show in a person, and how is it treated?",
+    "book": "class_11_biotechnology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0086",
+    "question": "What do the words dominant, recessive, homozygous, heterozygous, phenotype, and genotype mean in simple terms?",
+    "book": "class_11_biotechnology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0087",
+    "question": "Which tool is best for putting together transcriptomes both with and without a reference genome?",
+    "book": "class_11_biotechnology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0088",
+    "question": "Which type of bioinformatics came first, the one focused on biological structures or the one focused on genomes?",
+    "book": "class_11_biotechnology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0089",
+    "question": "What are two popular tools used to predict domains in a protein sequence?",
+    "book": "class_11_biotechnology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0090",
+    "question": "Which of these options does NOT belong to Lipinski's rule of five?",
+    "book": "class_11_biotechnology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0091",
+    "question": "What makes systems biology different from regular physiology?",
+    "book": "class_11_biotechnology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0092",
+    "question": "Which of these tools is NOT part of data management systems?",
+    "book": "class_11_biotechnology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0093",
+    "question": "What are the main parts inside a UV-visible spectrophotometer and what does each part do?",
+    "book": "class_11_biotechnology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0094",
+    "question": "How does the method that uses glowing DNA probes to light up specific parts of chromosomes work, and why is coloring whole chromosomes this way useful?",
+    "book": "class_11_biotechnology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0095",
+    "question": "What is the basic unit used to measure how heavy something is, and how do scientists officially define it?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0096",
+    "question": "If nitrogen and hydrogen are mixed together to make ammonia, which chemical runs out first and how much ammonia is produced?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0097",
+    "question": "How many electrons does this atom or ion have?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0098",
+    "question": "Which of these sets of quantum numbers for an electron are not allowed, and why?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0099",
+    "question": "Why would it be wrong to say nitrogen always has the same electronegativity value in every compound it forms?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0100",
+    "question": "What is the actual size of an atom or ion and how do we measure it?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0101",
+    "question": "Why do the bonds pointing straight up and down in PCl5 end up longer than the ones around the middle?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0102",
+    "question": "How do two hydrogen atoms come together and share their electrons to form a stable bond?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0103",
+    "question": "If nitrogen and hydrogen gases combine to make ammonia, what is the heat released when just one mole of ammonia is formed?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0104",
+    "question": "If a system takes in heat and also does some work, how much does its internal energy actually change?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0105",
+    "question": "What is the pH of a soft drink when the hydrogen ion concentration is 3.8 \u00d7 10\u207b\u00b3 M?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0106",
+    "question": "If you start with only ICl, what are the final concentrations of ICl, I\u2082, and Cl\u2082 once the reaction reaches equilibrium?",
+    "book": "class_11_chemistry_chemistry_part_i",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0107",
+    "question": "Why is fluorine the strongest at taking electrons from other things, while hydroiodic acid is the best at giving electrons away, compared to the other halogens and their hydrogen compounds?",
+    "book": "class_11_chemistry_chemistry_part_ii",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0108",
+    "question": "If silver difluoride were to form, why would it be such a powerful oxidising agent?",
+    "book": "class_11_chemistry_chemistry_part_ii",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0109",
+    "question": "What makes a molecule count as aromatic?",
+    "book": "class_11_chemistry_chemistry_part_ii",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0110",
+    "question": "What are the chemical equations for the burning of butane, pentene, hexyne, and toluene in oxygen?",
+    "book": "class_11_chemistry_chemistry_part_ii",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0111",
+    "question": "Why do smart home appliances use a microcontroller instead of a microprocessor, and what makes these two chips different from each other?",
+    "book": "class_11_computer_science",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0112",
+    "question": "How do the different parts inside a computer talk to and share information with each other?",
+    "book": "class_11_computer_science",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0113",
+    "question": "What are the hex and binary values for each character in the phrase \"\u0939\u092e \u0938\u092c \u090f\u0915\"?",
+    "book": "class_11_computer_science",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0114",
+    "question": "What is the binary form of the hex numbers 4026, BCA1, 98E, and 132.45?",
+    "book": "class_11_computer_science",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0115",
+    "question": "Why does saving data on the cloud save both money and time compared to storing it the old-fashioned way?",
+    "book": "class_11_computer_science",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0116",
+    "question": "How does the Web of Things build on or connect to the Internet of Things?",
+    "book": "class_11_computer_science",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0117",
+    "question": "What color word should appear based on where a number falls between certain ranges, and what happens if it doesn't fit any of those ranges?",
+    "book": "class_11_computer_science",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0118",
+    "question": "If two people take turns winning coin flips and the first to win three times gets the prize, how do you figure out who wins?",
+    "book": "class_11_computer_science",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0119",
+    "question": "How do you print a phrase multiple times based on a number the user types in?",
+    "book": "class_11_computer_science",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0120",
+    "question": "Why are some of these names not allowed to be used as identifiers in programming?",
+    "book": "class_11_computer_science",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0121",
+    "question": "What steps would you follow to display the multiplication table for a number that someone types in?",
+    "book": "class_11_computer_science",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0122",
+    "question": "Can you tell me if someone is old enough to get a driving license based on their age?",
+    "book": "class_11_computer_science",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0123",
+    "question": "What are the formulas used to find the area and perimeter of shapes like square, rectangle, triangle, circle, and cylinder?",
+    "book": "class_11_computer_science",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0124",
+    "question": "What happens to the solutions of a quadratic equation when the value of b squared minus 4ac is positive, zero, or negative?",
+    "book": "class_11_computer_science",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0125",
+    "question": "How do you write a function that takes a sentence and makes the first letter of every word a capital letter?",
+    "book": "class_11_computer_science",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0126",
+    "question": "If you keep typing lines of text until you press enter, how would you count the total characters, alphabets, digits, special symbols, and words in everything you typed?",
+    "book": "class_11_computer_science",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0127",
+    "question": "If you want to remove something from a list, what's the difference between deleting an item by its position versus deleting it by its value?",
+    "book": "class_11_computer_science",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0128",
+    "question": "What is the simplest way to find the largest and smallest numbers from a list of numbers entered by the user?",
+    "book": "class_11_computer_science",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0129",
+    "question": "If you split student email addresses at the \"@\" sign, what part gives you the username and what part gives you the domain name?",
+    "book": "class_11_computer_science",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0130",
+    "question": "If you have a list of student names saved together, how do you check whether a specific student's name is in that list or not?",
+    "book": "class_11_computer_science",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0131",
+    "question": "What simple habits can you follow to keep your computer healthy for longer and stay safe while browsing the internet?",
+    "book": "class_11_computer_science",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0132",
+    "question": "What is the difference between copyrights and patents?",
+    "book": "class_11_computer_science",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0133",
+    "question": "What is the difference between paid software that you can't share freely and software that is available for free, and can you give two examples of each?",
+    "book": "class_11_informatics_practices",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0134",
+    "question": "What are some examples of browsers you can use to go on the internet?",
+    "book": "class_11_informatics_practices",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0135",
+    "question": "What are cloud computing and big data, and what makes big data different from regular data?",
+    "book": "class_11_informatics_practices",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0136",
+    "question": "How does the Web of Things build on top of the Internet of Things to make connected devices easier to use?",
+    "book": "class_11_informatics_practices",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0137",
+    "question": "If you lend someone money at a certain interest rate for a few years, how do you figure out the total amount they owe you back using simple interest?",
+    "book": "class_11_informatics_practices",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0138",
+    "question": "Why are some of these names not allowed to be used as identifiers in programming?",
+    "book": "class_11_informatics_practices",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0139",
+    "question": "What is the way to find the biggest and second biggest numbers in a list?",
+    "book": "class_11_informatics_practices",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0140",
+    "question": "If you want to remove something from a list, what's the difference between deleting an item by its position versus deleting it by its actual value?",
+    "book": "class_11_informatics_practices",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0141",
+    "question": "What is the difference between organized data stored in tables and messy data that doesn't fit neatly into rows and columns, with one example of each?",
+    "book": "class_11_informatics_practices",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0142",
+    "question": "Which flower type has wider petals on average, the setosa or the virginica?",
+    "book": "class_11_informatics_practices",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0143",
+    "question": "Which flower has longer petals on average, Iris setosa or Iris virginica?",
+    "book": "class_11_informatics_practices",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0144",
+    "question": "What is the difference between the current data in a database and its structure, a primary key and a foreign key, and the number of columns versus rows in a table?",
+    "book": "class_11_informatics_practices",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0145",
+    "question": "If one group of things is completely inside another group, what do you get when you combine them both?",
+    "book": "class_11_mathematics",
+    "chapter": 1,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0146",
+    "question": "Is the first group fully inside the second group, and what do you get when you combine all the items from both groups together?",
+    "book": "class_11_mathematics",
+    "chapter": 1,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0147",
+    "question": "What are the different ways to write the relationship shown between two sets, and what are its domain and range?",
+    "book": "class_11_mathematics",
+    "chapter": 2,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0148",
+    "question": "What are all the pairs, domain values, and range values when each natural number less than 4 is matched with a number 5 more than it?",
+    "book": "class_11_mathematics",
+    "chapter": 2,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0149",
+    "question": "How many radians does a wheel turn in one second if it spins 360 times per minute?",
+    "book": "class_11_mathematics",
+    "chapter": 3,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0150",
+    "question": "What are the highest and lowest temperatures in Celsius if the solution must stay between 68\u00b0F and 77\u00b0F?",
+    "book": "class_11_mathematics",
+    "chapter": 5,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0151",
+    "question": "If you dilute a tank of acid solution by adding plain water, how many litres do you need to add so the acid percentage ends up between 25% and 30%?",
+    "book": "class_11_mathematics",
+    "chapter": 5,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0152",
+    "question": "How many ways can you arrange 5 men and 4 women in a row if the women must always sit in the even-numbered seats?",
+    "book": "class_11_mathematics",
+    "chapter": 6,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0153",
+    "question": "How many 6-digit numbers using 0, 1, 3, 5, 7, and 9 without repeating any digit end in zero?",
+    "book": "class_11_mathematics",
+    "chapter": 6,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0154",
+    "question": "How much does someone end up paying in total for a scooter if they pay part in cash and clear the rest in yearly instalments with 10% interest on the remaining amount each year?",
+    "book": "class_11_mathematics",
+    "chapter": 8,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0155",
+    "question": "How much does the farmer end up paying in total for the tractor after all the cash payment, instalments, and interest are added up?",
+    "book": "class_11_mathematics",
+    "chapter": 8,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0156",
+    "question": "What are the points on the y-axis that are exactly 4 units away from the line x/3 + y/4 = 1?",
+    "book": "class_11_mathematics",
+    "chapter": 9,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0157",
+    "question": "If you draw a straight line between two points and another line cuts through it, how do you find the two pieces it splits into?",
+    "book": "class_11_mathematics",
+    "chapter": 9,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0158",
+    "question": "If a parabola opens sideways along the x-axis, which direction does it open when the number in front of x is positive?",
+    "book": "class_11_mathematics",
+    "chapter": 10,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0159",
+    "question": "If a parabola has its line of symmetry along the y-axis, which way does it open when the number in front of y is positive?",
+    "book": "class_11_mathematics",
+    "chapter": 10,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0160",
+    "question": "If a point is sitting on the XZ-plane, what must its y-coordinate always be?",
+    "book": "class_11_mathematics",
+    "chapter": 11,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0161",
+    "question": "If a point is sitting right on the x-axis, what do its other two coordinates have to equal?",
+    "book": "class_11_mathematics",
+    "chapter": 11,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0162",
+    "question": "If the function pieces have to meet smoothly at x = 1, what values of a and b make the limit equal the actual function value there?",
+    "book": "class_11_mathematics",
+    "chapter": 12,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0163",
+    "question": "What is the chance that you and your friend end up in the same section when 100 students are split into groups of 40 and 60?",
+    "book": "class_11_mathematics",
+    "chapter": 14,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0164",
+    "question": "When you randomly pick 4 cards from a deck, what are the chances of getting exactly 3 diamond cards and 1 spade card?",
+    "book": "class_11_mathematics",
+    "chapter": 14,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0165",
+    "question": "In which parts of a flower do the male and female reproductive cells develop?",
+    "book": "class_12_biology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0166",
+    "question": "Why does the layer of cells surrounding the pollen sac help build the outer coat of pollen grains?",
+    "book": "class_12_biology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0167",
+    "question": "Why is it actually the father, not the mother, who determines the sex of a baby?",
+    "book": "class_12_biology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0168",
+    "question": "What happens during childbirth and which hormones help start the process of giving birth?",
+    "book": "class_12_biology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0169",
+    "question": "What steps can you take in everyday life to protect yourself from getting a sexually transmitted disease?",
+    "book": "class_12_biology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0170",
+    "question": "Why is it important for people in a community to have access to good reproductive health care and education?",
+    "book": "class_12_biology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0171",
+    "question": "When two parent traits both show up equally in the offspring instead of one hiding the other, what is that called and what happens when only a blended middle trait appears instead?",
+    "book": "class_12_biology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0172",
+    "question": "Why did Mendel choose pea plants for his experiments and what made them a good choice for studying inheritance?",
+    "book": "class_12_biology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0173",
+    "question": "What is the difference between repetitive DNA and satellite DNA, mRNA and tRNA, and template strand and coding strand?",
+    "book": "class_12_biology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0174",
+    "question": "What is the technique where a person's unique DNA pattern is used like an identity proof, and where exactly is it used in real life?",
+    "book": "class_12_biology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0175",
+    "question": "Why can't human evolution be considered an example of organisms spreading and adapting into many different forms like other animals do?",
+    "book": "class_12_biology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0176",
+    "question": "What is one example of a group of animals that evolved into many different species to fill different roles in their environment?",
+    "book": "class_12_biology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0177",
+    "question": "How does a cancer cell behave differently from a healthy cell in the body?",
+    "book": "class_12_biology",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0178",
+    "question": "What are some simple steps you can take in daily life to keep yourself safe from diseases that spread through dirty or contaminated water?",
+    "book": "class_12_biology",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0179",
+    "question": "Can tiny living organisms like bacteria be used to produce energy for us, and if so, how would that actually work?",
+    "book": "class_12_biology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0180",
+    "question": "How have tiny organisms been used to fight off dangerous bacterial infections?",
+    "book": "class_12_biology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0181",
+    "question": "What are the basic roles of origin of replication, bioreactors, and downstream processing in simple everyday terms?",
+    "book": "class_12_biology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0182",
+    "question": "Which is bigger in size, an enzyme or a DNA molecule, and how can you tell?",
+    "book": "class_12_biology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0183",
+    "question": "What are the steps involved in taking a human gene and getting a bacterium to produce its protein?",
+    "book": "class_12_biology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0184",
+    "question": "Why is growing plants from tiny tissue samples in a lab better than growing them the normal way?",
+    "book": "class_12_biology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0185",
+    "question": "What kind of relationship is it when one plant grows on another plant without harming it?",
+    "book": "class_12_biology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0186",
+    "question": "What are commensalism, parasitism, camouflage, mutualism, and interspecific competition, and can you give a real-life example of each?",
+    "book": "class_12_biology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0187",
+    "question": "What happens to dead organisms when they break down, and what do they turn into?",
+    "book": "class_12_biology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0188",
+    "question": "What are the different parts that make up an ecosystem?",
+    "book": "class_12_biology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0189",
+    "question": "Why does having more types of living things in an area help the environment work better?",
+    "book": "class_12_biology",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0190",
+    "question": "What does the steepness of the line on a species-area graph actually tell us about how species numbers change as habitat size increases?",
+    "book": "class_12_biology",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0191",
+    "question": "Who first discovered the plasmid?",
+    "book": "class_12_biotechnology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0192",
+    "question": "How did scientists first figure out how to combine DNA from different sources in the early days of genetic research?",
+    "book": "class_12_biotechnology",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0193",
+    "question": "Which of the four pairs is wrongly matched?",
+    "book": "class_12_biotechnology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0194",
+    "question": "Why is it called \"stringent\" when a plasmid makes only one copy of itself per cell division?",
+    "book": "class_12_biotechnology",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0195",
+    "question": "Why can't all types of restriction enzymes be used when scientists cut and paste DNA to make new combinations?",
+    "book": "class_12_biotechnology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0196",
+    "question": "What are the different ways scientists can extract DNA from cells?",
+    "book": "class_12_biotechnology",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0197",
+    "question": "What are transgenic animals used for when it comes to producing useful medicines or proteins inside their bodies?",
+    "book": "class_12_biotechnology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0198",
+    "question": "How are antibodies made more human-friendly so the body doesn't reject them as foreign?",
+    "book": "class_12_biotechnology",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0200",
+    "question": "What are the different ways scientists can map a genome and how do they compare to each other?",
+    "book": "class_12_biotechnology",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0201",
+    "question": "What are two simple ways to separate and grow a single type of microorganism all by itself in a lab?",
+    "book": "class_12_biotechnology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0202",
+    "question": "Who first came up with the method of isolating pure bacterial colonies on solid surfaces?",
+    "book": "class_12_biotechnology",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0203",
+    "question": "Why are shoot tips the best plant part to use if you want to grow plants that are free from viruses?",
+    "book": "class_12_biotechnology",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0204",
+    "question": "What are the different ingredients that go into the mixture used to grow plant cells or tissues in a lab?",
+    "book": "class_12_biotechnology",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0205",
+    "question": "Which type of media used to grow animal cells in a lab does not contain any protein?",
+    "book": "class_12_biotechnology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0206",
+    "question": "Which of these is NOT a main job that serum does for cells in culture?",
+    "book": "class_12_biotechnology",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0207",
+    "question": "What is the difference between stem cells that can make any cell type, those that can make almost any cell type, and those that can only make a few related cell types?",
+    "book": "class_12_biotechnology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0208",
+    "question": "What are the key features that make organ culture different from other types of tissue growth?",
+    "book": "class_12_biotechnology",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0209",
+    "question": "What are the main parts of a typical bioreactor and what is it used for?",
+    "book": "class_12_biotechnology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0210",
+    "question": "How do you separate and clean up a product that is made inside a cell, and what steps does that process go through from start to finish?",
+    "book": "class_12_biotechnology",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0211",
+    "question": "What tiny living things help clean dirty water and what do they actually do to make it cleaner?",
+    "book": "class_12_biotechnology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0212",
+    "question": "How do pesticides end up hurting animals and plants that they were never meant to kill?",
+    "book": "class_12_biotechnology",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0213",
+    "question": "What are the good things about using biodiesel as a fuel?",
+    "book": "class_12_biotechnology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0214",
+    "question": "Why do tiny gold particles appear red instead of their usual gold color?",
+    "book": "class_12_biotechnology",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0215",
+    "question": "What are the three main things an invention must have to be approved for a patent?",
+    "book": "class_12_biotechnology",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0216",
+    "question": "What personal traits and characteristics does someone need to have in order to be a successful entrepreneur?",
+    "book": "class_12_biotechnology",
+    "chapter": 13,
+    "tier": "clean"
+  },
+  {
+    "id": "q0217",
+    "question": "If the osmotic pressure drops to 1.52 bars at the same temperature, what concentration of the solution would that correspond to?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0218",
+    "question": "Why do alcohol and water molecules attract each other when mixed together?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0219",
+    "question": "How much nickel gets deposited when you run 5 amps through a nickel nitrate solution for 20 minutes?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0220",
+    "question": "How many Faradays of electricity are needed to produce 20g of calcium and 40g of aluminium from their molten compounds?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0221",
+    "question": "If a reaction speeds up at a certain rate, how long does it take for the starting amount to drop down to just one-sixteenth of what you began with?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0222",
+    "question": "At what temperature does the rate constant become 1.5 \u00d7 10\u2074 s\u207b\u00b9 if it is 4.5 \u00d7 10\u00b3 s\u207b\u00b9 at 10\u00b0C and the activation energy is 60 kJ/mol?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0223",
+    "question": "Why do some metals in the middle of the first row of transition elements have a less stable 2+ state than those at the beginning or end of the series?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0224",
+    "question": "Why does potassium dichromate act as an oxidising agent and what happens when it reacts with iodide ions, iron(II) ions, and hydrogen sulphide?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0225",
+    "question": "Why do metals stick to carbon monoxide molecules when forming these compounds and what kind of chemical bond holds them together?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0226",
+    "question": "What are some everyday examples of how coordination compounds are used in living things, medicine, chemical analysis, and metal extraction?",
+    "book": "class_12_chemistry_chemistry_i",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0227",
+    "question": "How would you convert ethanol into but-1-yne using simple chemical reactions?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0228",
+    "question": "What are the main products formed when each of these organic compounds reacts with the given reagents like NaI, KOH, NaOH, KCN, SOCl2, or HBr?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0229",
+    "question": "What happens when you add water across a double bond using boron first and then hydrogen peroxide, and can you show a simple example of how this works?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0230",
+    "question": "What are the steps to make phenol starting from cumene?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0231",
+    "question": "How would you tell apart each pair of these similar-looking chemicals using a simple chemical test?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0232",
+    "question": "What are the IUPAC names (and common names where possible) for these ketones and aldehydes: CH3CO(CH2)4CH3, CH3CH2CHBrCH2CH(CH3)CHO, CH3(CH2)5CHO, Ph-CH=CH-CHO, and PhCOPh?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0233",
+    "question": "Which simple chemical test can tell apart aniline from benzylamine?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0234",
+    "question": "How can you tell apart three types of amines from each other using a simple chemical test?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 9,
+    "tier": "clean"
+  },
+  {
+    "id": "q0235",
+    "question": "What are two ways that plants use carbohydrates in their bodies?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0236",
+    "question": "Why do amino acids act as both an acid and a base depending on the situation?",
+    "book": "class_12_chemistry_chemistry_ii",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0237",
+    "question": "What happens when you wrap risky code in a try block and something goes wrong \u2014 how does the except part kick in to handle the error?",
+    "book": "class_12_computer_science",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0238",
+    "question": "What are the plain meanings of exception handling, throwing an exception, and catching an exception?",
+    "book": "class_12_computer_science",
+    "chapter": 1,
+    "tier": "clean"
+  },
+  {
+    "id": "q0239",
+    "question": "How do you store and read back shop item details like item number, name, quantity and price from a binary file, then display the total amount for each item?",
+    "book": "class_12_computer_science",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0240",
+    "question": "What are the differences between text and binary files, readline and readlines, and write and writelines in Python file handling?",
+    "book": "class_12_computer_science",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0241",
+    "question": "How can you use a stack to flip a string backwards?",
+    "book": "class_12_computer_science",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0242",
+    "question": "If you keep pulling numbers off a stack one by one to find the biggest odd number, what happens to the stack by the time you know the answer?",
+    "book": "class_12_computer_science",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0243",
+    "question": "How does a shuttlecock move in and out of its box when you add or remove them one by one?",
+    "book": "class_12_computer_science",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0244",
+    "question": "How can you use a double-ended structure to check if a word reads the same forwards and backwards?",
+    "book": "class_12_computer_science",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0245",
+    "question": "For the list 63 42 21 9, which sorting method needs fewer comparisons to sort it \u2014 selection sort or bubble sort?",
+    "book": "class_12_computer_science",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0246",
+    "question": "If you search for a number in a sorted list, how do you use binary search to find where it is or tell if it's missing?",
+    "book": "class_12_computer_science",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0247",
+    "question": "If a sorted database has over a billion records and the answer is right in the middle, how many comparisons does each search method need to find it?",
+    "book": "class_12_computer_science",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0248",
+    "question": "How would a teacher collect and record information about students' different skills when choosing one person for a special role from a large group?",
+    "book": "class_12_computer_science",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0249",
+    "question": "What is the difference between structured and unstructured data, and how can a school canteen's purchase and sale prices of fruit juice and biscuits be compared using a chart or graph?",
+    "book": "class_12_computer_science",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0250",
+    "question": "Why can a foreign key be left blank or empty even though it's supposed to link to another table, and can you give a simple example to show when that makes sense?",
+    "book": "class_12_computer_science",
+    "chapter": 8,
+    "tier": "clean"
+  },
+  {
+    "id": "q0251",
+    "question": "Why does every network device need its own unique hardware address to communicate properly on a network?",
+    "book": "class_12_computer_science",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0252",
+    "question": "Why would two universities located in different states need a wide area network to share information with each other?",
+    "book": "class_12_computer_science",
+    "chapter": 10,
+    "tier": "clean"
+  },
+  {
+    "id": "q0253",
+    "question": "What are the three main types of cables used to send data through physical connections, and how does each one work?",
+    "book": "class_12_computer_science",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0254",
+    "question": "What are the rules that computers follow to talk to each other called, and can you give an everyday example of how they work?",
+    "book": "class_12_computer_science",
+    "chapter": 11,
+    "tier": "clean"
+  },
+  {
+    "id": "q0255",
+    "question": "What are computer viruses and can you give some examples of well-known ones that have spread in recent years?",
+    "book": "class_12_computer_science",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0256",
+    "question": "How do hackers lock your computer and force you to pay to get your files back?",
+    "book": "class_12_computer_science",
+    "chapter": 12,
+    "tier": "clean"
+  },
+  {
+    "id": "q0257",
+    "question": "What does \"size\" actually mean when you're working with a Series compared to a whole DataFrame?",
+    "book": "class_12_informatics_practices",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0258",
+    "question": "Can a DataFrame be thought of as a bunch of columns that are each their own Series?",
+    "book": "class_12_informatics_practices",
+    "chapter": 2,
+    "tier": "clean"
+  },
+  {
+    "id": "q0259",
+    "question": "What happens when some data is missing from a dataset and what are the different ways to deal with those gaps?",
+    "book": "class_12_informatics_practices",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0260",
+    "question": "How does grouping rows together in a database query work, and can you show me a simple real-life example of it?",
+    "book": "class_12_informatics_practices",
+    "chapter": 3,
+    "tier": "clean"
+  },
+  {
+    "id": "q0261",
+    "question": "What is Matplotlib used for when working with data?",
+    "book": "class_12_informatics_practices",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0262",
+    "question": "What is a legend on a map or chart supposed to help you understand?",
+    "book": "class_12_informatics_practices",
+    "chapter": 4,
+    "tier": "clean"
+  },
+  {
+    "id": "q0263",
+    "question": "Which internet service should Mampi use to advertise her rural handicrafts business on a social platform, and why?",
+    "book": "class_12_informatics_practices",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0264",
+    "question": "How do you change the privacy settings in a browser?",
+    "book": "class_12_informatics_practices",
+    "chapter": 5,
+    "tier": "clean"
+  },
+  {
+    "id": "q0265",
+    "question": "Which of the things you searched online while planning your vacation would have left a digital footprint behind?",
+    "book": "class_12_informatics_practices",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0266",
+    "question": "Did you get a suspicious text from your bank asking for your PIN, and should you reply to it or call the bank's official number to check if it's real?",
+    "book": "class_12_informatics_practices",
+    "chapter": 6,
+    "tier": "clean"
+  },
+  {
+    "id": "q0267",
+    "question": "Why do cities tend to have more or fewer women compared to men than villages do?",
+    "book": "class_12_informatics_practices",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0268",
+    "question": "What percentage of people work only occasionally or part of the year compared to the total workers?",
+    "book": "class_12_informatics_practices",
+    "chapter": 7,
+    "tier": "clean"
+  },
+  {
+    "id": "q0269",
+    "question": "Can you give examples of relations that fit each combo of being symmetric, reflexive, or transitive, but missing one or more of those properties?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 1,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0270",
+    "question": "What is the collection of all polygons that are related to a right-angled triangle, and why does \"having the same number of sides\" count as an equivalence relation?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 1,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0271",
+    "question": "Which values of x and y make these two matrices equal to each other?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 3,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0272",
+    "question": "If a matrix has 18 elements, what are all the different ways you can arrange its rows and columns, and what if it only has 5 elements?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 3,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0273",
+    "question": "Are the functions made by adding, subtracting, or multiplying sine and cosine continuous everywhere?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 5,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0274",
+    "question": "Is the function that equals x squared times sine of 1 over x when x is not zero and equals zero when x is zero continuous at x equals zero?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 5,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0275",
+    "question": "When a bubble's radius grows at half a centimeter per second, how fast is its volume increasing at the moment the radius reaches 1 cm?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 6,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0276",
+    "question": "When a cube's side is growing at 3 cm per second, how quickly is its volume growing at the moment the side reaches 10 cm?",
+    "book": "class_12_mathematics_mathematics_part_i",
+    "chapter": 6,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0277",
+    "question": "If bacteria keep growing at 10% every 2 hours, how many hours will it take for the count to double?",
+    "book": "class_12_mathematics_mathematics_part_ii",
+    "chapter": 9,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0278",
+    "question": "Can you give an example of two arrows pointing in different directions but still having the same length?",
+    "book": "class_12_mathematics_mathematics_part_ii",
+    "chapter": 10,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0279",
+    "question": "What are two different vectors that point in the same direction?",
+    "book": "class_12_mathematics_mathematics_part_ii",
+    "chapter": 10,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0280",
+    "question": "If a line has direction ratios of \u201318, 12, and \u20134, what are the actual direction cosines you get after simplifying them?",
+    "book": "class_12_mathematics_mathematics_part_ii",
+    "chapter": 11,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0281",
+    "question": "If you flip a mystery coin and it lands heads, what are the chances it was the fake coin with heads on both sides?",
+    "book": "class_12_mathematics_mathematics_part_ii",
+    "chapter": 13,
+    "tier": "fragmented"
+  },
+  {
+    "id": "q0282",
+    "question": "If a broken item comes off the line, what is the chance it was made by operator A?",
+    "book": "class_12_mathematics_mathematics_part_ii",
+    "chapter": 13,
+    "tier": "fragmented"
+  }
+]
