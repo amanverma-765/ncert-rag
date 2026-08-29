@@ -11,7 +11,16 @@ RRF_K = 60
 
 
 class Retriever(Protocol):
+    """What every arm implements.
+
+    `search` is part of the contract, not an implementation detail: Hybrid
+    fuses two arms' ranked ids and Expansion puts a rewrite in front of one, so
+    both compose on ids and scores rather than on hydrated hits.
+    """
+
     name: str
+
+    def search(self, question: str, k: int) -> list[tuple[int, float]]: ...
 
     def retrieve(self, question: str, k: int) -> list[RetrievalHit]: ...
 

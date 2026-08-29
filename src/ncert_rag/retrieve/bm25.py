@@ -7,7 +7,7 @@ seminiferous, SN2), which BM25 matches better than any embedding.
 import re
 import sqlite3
 
-from ncert_rag.core.models import ChunkSource, RetrievalHit
+from ncert_rag.core.models import RetrievalHit
 from ncert_rag.store import db
 
 _WORD = re.compile(r"[A-Za-z0-9]+")
@@ -43,9 +43,8 @@ def fts_query(question: str) -> str:
 class Bm25:
     name = "bm25"
 
-    def __init__(self, conn: sqlite3.Connection, source: ChunkSource = "parsed"):
+    def __init__(self, conn: sqlite3.Connection):
         self.conn = conn
-        self.source = source
 
     def search(self, question: str, k: int) -> list[tuple[int, float]]:
         query = fts_query(question)
@@ -54,9 +53,9 @@ class Bm25:
         rows = self.conn.execute(
             "SELECT f.rowid AS id, bm25(chunks_fts) AS score "
             "FROM chunks_fts f JOIN chunks c ON c.id = f.rowid "
-            "WHERE chunks_fts MATCH ? AND c.source = ? "
+            "WHERE chunks_fts MATCH ? AND c.source = 'parsed' "
             "ORDER BY score LIMIT ?",
-            (query, self.source, k),
+            (query, k),
         ).fetchall()
         # bm25() is negative with better matches more negative; flip it so every
         # arm reports higher-is-better
