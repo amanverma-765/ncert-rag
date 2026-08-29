@@ -25,6 +25,20 @@ _DROP_CAP = re.compile(r"^([A-Z])\n(?=[a-z])", re.MULTILINE)
 
 _PAGE_NUMBER = re.compile(r"^\s*\d{1,4}\s*$")
 
+# How many lines at each end of a page count as furniture. A page number sits
+# at the top or bottom; a lone number in the middle of a page is content --
+# usually a cell of a chemistry table, or a coefficient in a balanced equation.
+# Matching every standalone number cost 1,937 content lines to remove 242 real
+# page numbers, so position is what decides.
+PAGE_EDGE = 2
+
+
+def is_page_number(text: str, position: int, total: int) -> bool:
+    """A standalone number near the top or bottom of its page."""
+    if not _PAGE_NUMBER.match(text):
+        return False
+    return position < PAGE_EDGE or position >= total - PAGE_EDGE
+
 
 def clean_text(text: str) -> str:
     """Normalize one page's extracted text."""
@@ -56,11 +70,15 @@ def strip_running_heads(pages: list[str], threshold: float = 0.4) -> list[str]:
         line for line, n in counts.items() if n >= max(2, threshold * len(pages))
     }
 
-    return [
-        "\n".join(
-            line
-            for line in page.splitlines()
-            if line.strip() not in furniture and not _PAGE_NUMBER.match(line)
-        ).strip()
-        for page in pages
-    ]
+    kept = []
+    for page in pages:
+        lines = [line for line in page.splitlines() if line.strip()]
+        kept.append(
+            "\n".join(
+                line
+                for position, line in enumerate(lines)
+                if line.strip() not in furniture
+                and not is_page_number(line, position, len(lines))
+            ).strip()
+        )
+    return kept

@@ -34,6 +34,8 @@ class Mark:
     """A detected section heading and where it sits in the line stream."""
 
     number: str
+    # Nothing downstream reads a section title; this exists only so _dedupe can
+    # tell a truncated overprint from the complete one.
     title: str
     page: int
     index: int
