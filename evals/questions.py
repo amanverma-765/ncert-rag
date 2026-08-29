@@ -3,7 +3,7 @@
 Exercise questions are free ground truth: one printed at the end of chapter 5
 is answered by chapter 5. But nobody types them as printed, and an arm measured
 on textbook wording looks far better than it will ever be in a student's hands:
-BM25 scored 89.8% on the printed wording and 72.3% once the vocabulary was
+BM25 scored 89.8% R@5 on the printed wording and 75.2% once the vocabulary was
 stripped out. So the query set holds the reworded version only.
 """
 
