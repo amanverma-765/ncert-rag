@@ -5,9 +5,11 @@ readme = "README.md"
 description = "A complete RAG pipeline for NCERT books"
 requires-python = ">=3.14"
 dependencies = [
+    "chromadb>=1.5.9",
     "ncert-cli>=1.0.3",
     "numpy>=2",
-    "pydantic-ai>=2.33.0",
+    "pydantic==2.13.5",
+    "pydantic-ai==2.36.0",
     "pymupdf>=1.28.2",
     "python-dotenv>=1.2",
     "sentence-transformers>=3",
@@ -22,10 +24,6 @@ ncert-rag = "ncert_rag.cli:main"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]
-
-[tool.ruff.lint.per-file-ignores]
-# one book per line stays scannable as a table; wrapping them does not
-"src/ncert_rag/core/registry.py" = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
