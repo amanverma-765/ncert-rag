@@ -65,23 +65,18 @@ class Expansion:
 
         self.agent = llm.agent(_INSTRUCTIONS, model=self.model)
         self._llm = llm
-        # what this arm's own rewrites cost, for the cost benchmark
-        self.calls = 0
-        self.input_tokens = 0
-        self.output_tokens = 0
 
     def expand(self, question: str) -> str:
         """Question plus its textbook-vocabulary restatement.
 
-        The original terms stay in the query so that a drifting rewrite can
-        only add recall, never trade it away.
+        The original terms stay in the query, so a drifting rewrite has the
+        student's own words to fall back on. That bounds the damage; it does
+        not rule it out. Retrieval returns the top k by score, so added terms
+        reshuffle every rank and a chunk sitting at k can be pushed past it.
+        Measured over 282 questions, the rewrite wins 21 and loses 3.
         """
         if question not in _CACHE:
-            reply = self._llm.ask_reply(self.agent, question)
-            self.calls += 1
-            self.input_tokens += reply.input_tokens
-            self.output_tokens += reply.output_tokens
-            _CACHE[question] = reply.text
+            _CACHE[question] = self._llm.ask(self.agent, question)
         return f"{question} {_CACHE[question]}"
 
     def search(self, question: str, k: int) -> list[tuple[int, float]]:

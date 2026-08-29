@@ -6,7 +6,6 @@ one non-async interface; callers wanting concurrency use threads.
 
 import os
 import time
-from dataclasses import dataclass
 
 from pydantic_ai import Agent
 from pydantic_ai.exceptions import ModelAPIError, UnexpectedModelBehavior
@@ -33,35 +32,18 @@ def _model(name: str) -> OpenAIChatModel:
     )
 
 
-def agent(instructions: str, output_type: type = str, model: str = MODEL) -> Agent:
+def agent(instructions: str, model: str = MODEL) -> Agent:
     """An agent on the named model. Callers that care about latency pass one."""
-    return Agent(_model(model), instructions=instructions, output_type=output_type)
+    return Agent(_model(model), instructions=instructions)
 
 
-@dataclass(frozen=True, slots=True)
-class Reply:
-    text: str
-    input_tokens: int
-    output_tokens: int
-
-
-def ask_reply(agent_: Agent, prompt: str) -> Reply:
-    """Run the agent and report what the call cost, for the cost benchmark."""
+def ask(agent_: Agent, prompt: str) -> str:
+    """Run the agent, retrying the proxy's transient failures."""
     for attempt in range(_ATTEMPTS):
         try:
-            result = agent_.run_sync(prompt)
-            usage = result.usage
-            return Reply(
-                text=str(result.output),
-                input_tokens=usage.input_tokens or 0,
-                output_tokens=usage.output_tokens or 0,
-            )
+            return str(agent_.run_sync(prompt).output)
         except _TRANSIENT:
             if attempt == _ATTEMPTS - 1:
                 raise
             time.sleep(2**attempt)
     raise AssertionError("unreachable")
-
-
-def ask(agent_: Agent, prompt: str) -> str:
-    return ask_reply(agent_, prompt).text
