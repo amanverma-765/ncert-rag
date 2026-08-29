@@ -9,6 +9,7 @@ a new section; the repeats are furniture.
 from collections import Counter
 
 from ncert_rag.core.models import Section
+from ncert_rag.ingest.clean import clean_text, is_page_number
 from ncert_rag.ingest.extract import Line
 from ncert_rag.ingest.parse.profile import SECTION, HeadingProfile, Mark, find_marks
 
@@ -17,16 +18,37 @@ _MIN_MARKS = 2
 
 
 def _drop_furniture(lines: list[Line], threshold: float = 0.4) -> list[Line]:
-    """Remove running heads, but never a section mark: those open sections."""
+    """Remove running heads and page numbers, but never a section mark.
+
+    Page numbers are dropped by position, exactly as the raw path drops them,
+    because they never repeat often enough to look like furniture on their own.
+    """
     pages = len({line.page for line in lines})
     if pages < 3:
         return lines
 
     counts = Counter(line.text for line in lines if len(line.text) <= 60)
     limit = max(2, threshold * pages)
-    return [
-        line for line in lines if SECTION.match(line.text) or counts[line.text] < limit
-    ]
+
+    per_page: dict[int, list[int]] = {}
+    for index, line in enumerate(lines):
+        per_page.setdefault(line.page, []).append(index)
+    position = {
+        index: (place, len(group))
+        for group in per_page.values()
+        for place, index in enumerate(group)
+    }
+
+    kept = []
+    for index, line in enumerate(lines):
+        if SECTION.match(line.text):
+            kept.append(line)
+            continue
+        place, total = position[index]
+        if counts[line.text] >= limit or is_page_number(line.text, place, total):
+            continue
+        kept.append(line)
+    return kept
 
 
 def _advancing(marks: list[Mark], chapter: int) -> list[Mark]:
@@ -42,7 +64,15 @@ def _advancing(marks: list[Mark], chapter: int) -> list[Mark]:
 
 
 def _text(lines: list[Line], start: int, end: int) -> str:
-    return "\n".join(line.text for line in lines[start:end]).strip()
+    """Join a run of lines and clean the result as a block.
+
+    `page_lines` cleans each line on its own, where the newline-dependent rules
+    -- rejoining a word broken across lines, reattaching a drop cap -- cannot
+    match. The join is the first point at which they can, and `clean_text` is
+    idempotent for everything else it does, so running it again here is what
+    keeps this text identical to the raw path's.
+    """
+    return clean_text("\n".join(line.text for line in lines[start:end])).strip()
 
 
 def split(
@@ -59,7 +89,11 @@ def split(
     if len(kept) < _MIN_MARKS:
         body = _text(lines, 0, len(lines))
         page = lines[0].page if lines else 1
-        return [Section(book, chapter, None, "", body, page)] if body else []
+        return (
+            [Section(book=book, chapter=chapter, number=None, text=body, page=page)]
+            if body
+            else []
+        )
 
     sections: list[Section] = []
 
@@ -67,7 +101,13 @@ def split(
     opening = _text(lines, 0, kept[0].index)
     if len(opening) > 200:
         sections.append(
-            Section(book, chapter, None, "Introduction", opening, lines[0].page)
+            Section(
+                book=book,
+                chapter=chapter,
+                number=None,
+                text=opening,
+                page=lines[0].page,
+            )
         )
 
     ends = [mark.index for mark in kept[1:]] + [len(lines)]
@@ -75,7 +115,13 @@ def split(
         body = _text(lines, mark.index, end)
         if body:
             sections.append(
-                Section(book, chapter, mark.number, mark.title, body, mark.page)
+                Section(
+                    book=book,
+                    chapter=chapter,
+                    number=mark.number,
+                    text=body,
+                    page=mark.page,
+                )
             )
 
     return sections
