@@ -16,11 +16,9 @@ class Vector:
         self.conn = conn
         self.source = source
         self.name = "vector" if source == "parsed" else "vector_raw"
-        # the whole matrix is a few MB; load once and reuse across queries
-        self.ids, self.matrix = vectors.load(conn, source)
 
     def search(self, question: str, k: int) -> list[tuple[int, float]]:
-        return vectors.top_k(self.matrix, self.ids, embedder.encode_query(question), k)
+        return vectors.top_k(self.source, embedder.encode_query(question), k)
 
     def retrieve(self, question: str, k: int) -> list[RetrievalHit]:
         return db.hits(self.conn, self.search(question, k))

@@ -61,23 +61,33 @@ def _build_book(conn: sqlite3.Connection, book: BookSpec) -> list[int]:
 
 
 def _embed_pending(conn: sqlite3.Connection) -> int:
-    """Embed every chunk that has no vector yet."""
-    rows = conn.execute(
-        "SELECT c.id, c.text FROM chunks c "
-        "LEFT JOIN embeddings e ON e.chunk_id = c.id WHERE e.chunk_id IS NULL "
-        "ORDER BY c.id"
-    ).fetchall()
-    if not rows:
-        return 0
+    """Embed every chunk that has no vector yet, one chunk set at a time.
 
-    ids = [row["id"] for row in rows]
-    texts = [row["text"] for row in rows]
-    for start in range(0, len(ids), 512):
-        window = slice(start, start + 512)
-        vectors.save(conn, ids[window], embedder.encode_documents(texts[window]))
-        conn.commit()
-        print(f"  embedded {min(start + 512, len(ids))}/{len(ids)}")
-    return len(ids)
+    The two stores cannot be joined, so the pending set is a difference: chunk
+    ids SQLite knows about, minus the ids Chroma already holds. A build killed
+    part way leaves the finished batches in Chroma and the rest pending, which
+    is what the old per-batch commit bought.
+    """
+    total = 0
+    for source in ("parsed", "raw"):
+        done = vectors.stored_ids(source)
+        rows = [
+            row
+            for row in conn.execute(
+                "SELECT id, text FROM chunks WHERE source = ? ORDER BY id", (source,)
+            )
+            if row["id"] not in done
+        ]
+        if not rows:
+            continue
+        ids = [row["id"] for row in rows]
+        texts = [row["text"] for row in rows]
+        for start in range(0, len(ids), 512):
+            window = slice(start, start + 512)
+            vectors.save(source, ids[window], embedder.encode_documents(texts[window]))
+            print(f"  {source}: embedded {min(start + 512, len(ids))}/{len(ids)}")
+        total += len(ids)
+    return total
 
 
 def build(books: Iterable[BookSpec] = BOOKS, rebuild: bool = False) -> None:
@@ -118,7 +128,16 @@ def _report(conn: sqlite3.Connection, books: list[BookSpec]) -> None:
         n = conn.execute(
             "SELECT COUNT(*) n FROM chunks WHERE source = ?", (source,)
         ).fetchone()["n"]
-        print(f"  {source:>6} chunks: {n}")
+        stored = vectors.count(source)
+        print(f"  {source:>6} chunks: {n} ({stored} vectors)")
+        # More vectors than chunks cannot happen in a healthy store. It means
+        # data/chroma survived a corpus.db that did not: chunk ids restart at
+        # 1, so old vectors now sit under ids belonging to different chapters.
+        if stored > n:
+            raise SystemExit(
+                f"  ! data/chroma holds {stored} {source} vectors but corpus.db "
+                f"has {n} chunks. Delete data/chroma and rebuild."
+            )
 
     total_q = conn.execute("SELECT COUNT(*) n FROM exercises").fetchone()["n"]
     print(f"  exercise questions: {total_q}")

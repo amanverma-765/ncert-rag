@@ -13,36 +13,21 @@ DIMS = 384
 # BGE is trained with an asymmetric prefix: queries get it, passages do not
 _QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
 
-_model: SentenceTransformer | None = None
-
-
-def _load() -> SentenceTransformer:
-    global _model
-    if _model is None:
-        _model = SentenceTransformer(MODEL)
-    return _model
+_model = SentenceTransformer(MODEL)
 
 
 def encode_documents(texts: list[str], batch: int = 64) -> np.ndarray:
-    return (
-        _load()
-        .encode(
-            texts,
-            batch_size=batch,
-            normalize_embeddings=True,
-            show_progress_bar=False,
-        )
-        .astype(np.float32)
-    )
+    return _model.encode(
+        texts,
+        batch_size=batch,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    ).astype(np.float32)
 
 
 def encode_query(text: str) -> np.ndarray:
-    return (
-        _load()
-        .encode(
-            _QUERY_PREFIX + text,
-            normalize_embeddings=True,
-            show_progress_bar=False,
-        )
-        .astype(np.float32)
-    )
+    return _model.encode(
+        _QUERY_PREFIX + text,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    ).astype(np.float32)

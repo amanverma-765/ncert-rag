@@ -1,4 +1,7 @@
-"""One SQLite file holds the whole corpus: chunks, full-text index, vectors.
+"""One SQLite file holds the corpus text and its full-text index.
+
+Vectors live in Chroma (`store/vectors.py`), not here, so there is one store
+that can be behind rather than two that can disagree.
 
 Both chunk sets live in the same table under different `source` values so
 every arm searches identical text and any difference between them comes from
@@ -10,6 +13,7 @@ from collections.abc import Iterable, Sequence
 
 from ncert_rag.core.models import BookSpec, Chunk, RetrievalHit
 from ncert_rag.core.paths import DB_PATH
+from ncert_rag.store import vectors
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS books (
@@ -29,13 +33,7 @@ CREATE TABLE IF NOT EXISTS chunks (
     source  TEXT NOT NULL,
     text    TEXT NOT NULL
 );
-CREATE INDEX IF NOT EXISTS chunks_by_source ON chunks(source);
-CREATE INDEX IF NOT EXISTS chunks_by_book ON chunks(book);
 CREATE VIRTUAL TABLE IF NOT EXISTS chunks_fts USING fts5(text);
-CREATE TABLE IF NOT EXISTS embeddings (
-    chunk_id INTEGER PRIMARY KEY REFERENCES chunks(id),
-    vec      BLOB NOT NULL
-);
 CREATE TABLE IF NOT EXISTS exercises (
     id       INTEGER PRIMARY KEY,
     book     TEXT NOT NULL,
@@ -67,12 +65,14 @@ def stored_digest(conn: sqlite3.Connection, slug: str) -> str | None:
 
 
 def clear_book(conn: sqlite3.Connection, slug: str) -> None:
-    """Drop everything derived from one book so a rebuild cannot leave orphans."""
-    conn.execute(
-        "DELETE FROM embeddings WHERE chunk_id IN "
-        "(SELECT id FROM chunks WHERE book = ?)",
-        (slug,),
-    )
+    """Drop everything derived from one book so a rebuild cannot leave orphans.
+
+    Chroma goes first, because it is outside this transaction and it needs the
+    chunk rows to find the ids. A crash between the two leaves chunks without
+    vectors, which the next build re-embeds; the other order would leave
+    vectors under ids SQLite is free to hand to a different book.
+    """
+    vectors.drop_book(conn, slug)
     conn.execute(
         "DELETE FROM chunks_fts WHERE rowid IN (SELECT id FROM chunks WHERE book = ?)",
         (slug,),
